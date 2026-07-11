@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMERGENCY MEDICAL ID</title>
+    <style>
+        body { 
+            font-family: system-ui, sans-serif; 
+            padding: 20px; 
+            background: #f4f4f4; 
+            color: #333; 
+            max-width: 500px; 
+            margin: 0 auto; 
+        }
+        /* Card Container with a solid black border */
+        .medical-card {
+            background: #ffffff;
+            border: 4px solid #000000;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            box-sizing: border-box;
+        }
+        .alert-header { 
+            background: #d32f2f; 
+            color: white; 
+            padding: 15px; 
+            text-align: center; 
+            border-radius: 6px; 
+            margin-top: 0;
+        }
+        .alert-title {
+            font-weight: bold; 
+            font-size: 1.3rem;
+            display: block;
+            margin-bottom: 4px;
+        }
+        /* Sub-header for the timestamp */
+        .last-updated {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            display: block;
+        }
+        h2 { 
+            border-bottom: 2px solid #ccc; 
+            padding-bottom: 5px; 
+            margin-top: 25px; 
+            font-size: 1.2rem;
+        }
+        .critical { 
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            color: #d32f2f; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="medical-card">
+
+        <div class="alert-header">
+            <span class="alert-title">🚨 EMERGENCY MEDICAL INFORMATION</span>
+            <span class="last-updated">Last Updated: Jul 11, 2026</span>
+        </div>
+
+        <h2>Critical Information</h2>
+        <p><strong>Blood Type:</strong> A+</p>
+        <p class="critical"><strong>Severe Allergies:</strong> No known allergies</p>
+
+        <h2>Medications & Medical History</h2>
+        <ul>
+            <li>On accutane since Jan 2026</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
